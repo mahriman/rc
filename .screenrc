@@ -1,0 +1,11 @@
+startup_message off 	# No startup screen
+autodetach on		# Autodetach on hangup
+defscrollback 1000	# Larger scrollback buffer
+hardstatus ignore
+defutf8 on
+defbce on
+# Uncomment to show bottom caption bar with user@host at left side
+# and clock and date on right side
+#caption always "%{= b}%-w%{= G}%n %t%{-}%+w %-=%{G}%c %D, %d %M, %Y "
+
+
